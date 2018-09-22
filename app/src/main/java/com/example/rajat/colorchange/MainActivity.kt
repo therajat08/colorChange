@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    fun asBefore()
+    fun reset(view: View)
     {
         color.setText("Color appears here")
         color.setBackgroundColor(Color.GRAY)
